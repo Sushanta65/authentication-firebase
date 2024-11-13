@@ -56,7 +56,7 @@ const Login = () => {
 
             {
                 loginSuccess? <div>
-                    <h3>User Email: {loggedInUser.email}</h3>
+                    <h3>User Email: <span className="bg-purple-600 text-white">{loggedInUser.email}</span></h3>
                 </div>: <></>
             }
 
